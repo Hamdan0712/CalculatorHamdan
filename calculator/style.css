@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+}
+.center{
+    width: 40rem;
+    height: 60rem;
+    position: absolute;
+    top: 50%;
+   /* display:flex ;
+   align-items: center;
+   justify-content: center; */
+    transform: translate(0,-50%);
+    border-radius: 2rem;
+background-color: slategray;
+}
+.screenf{
+    border:none;
+    background:black;
+    color: white;
+height: 10rem;
+width: 40rem;
+border-radius: 1rem;
+font-size: 3rem;
+text-align: right;
+}
+.btn{
+    border: none;
+    width: 6rem;
+    height: 6rem;
+    text-align: center;
+    margin:1rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    cursor: pointer;
+    /* margin-right: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 1rem; */
+}
+.number-calc{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    margin-left: 3rem;
+
+}
+.equal{
+    width: 14rem;
+    background-color:black;
+    color: white;
+}
+.main-btn{
+    margin-left: 4rem;
+    margin-top: 4rem;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.operator{
+    background-color: darkcyan;
+    border: 1px solid black;
+}
+.operatorD{
+    background-color: rosybrown;
+}
+.ope{
+    background-color:darkseagreen;
+}
+.myText{
+    font-size: 3rem;
+    text-align: center;
+    margin-right: 2rem;
+    margin-top: .5rem;
+}
